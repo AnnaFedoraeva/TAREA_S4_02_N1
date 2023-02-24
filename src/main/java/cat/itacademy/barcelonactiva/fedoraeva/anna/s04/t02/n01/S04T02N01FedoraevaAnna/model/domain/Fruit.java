@@ -7,6 +7,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+
 @Entity
 @Table(name = "fruits")
 
@@ -19,7 +20,7 @@ public class Fruit {
 	@Column(name = "nombre")
 	private String nombre;
 
-	@Column(name = "quantitatQuilos")
+	@Column(name = "Kg")
 	private int quantitatQuilos;
 	
 
